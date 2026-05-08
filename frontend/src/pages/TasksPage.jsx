@@ -3,7 +3,7 @@ import axios from 'axios';
 import TaskForm from '../components/TaskForm';
 import TaskList from '../components/TaskList';
 
-const API_URL = import.meta.env.VITE_API_URL || '/api/tasks';
+const API_URL = 'http://52.91.228.97:5001/api/tasks';
 
 function TasksPage() {
   const [tasks, setTasks] = useState([]);
